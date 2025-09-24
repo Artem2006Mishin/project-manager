@@ -1,1 +1,22 @@
-{}
+{
+	"users": [
+		{
+			"name": "artem",
+			"age": "19"
+		},
+		{
+			"name": "dmitry",
+			"age": "45"
+		},
+		{
+			"name": "tatiyna",
+			"age": "44"
+		},
+		{
+			"name": "marina",
+			"age": "11"
+		}
+	],
+	"projects": [],
+	"tasks": []
+}

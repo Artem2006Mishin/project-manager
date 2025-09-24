@@ -6,15 +6,19 @@ const App = () => {
 
 	const getUsersAsync = async () => {
 		try {
+			// const res = await api.get('/users', {
+			// 	skipAuth: true,
+			// });
 			const res = await api.get('/users');
 			setUsers(res.data);
 		} catch (error) {
-			console.log(error.message);
+			console.log('error:', error.message);
 		}
 	};
 
 	const setToken = () => {
 		localStorage.setItem('authToken', 'firstToken');
+		console.log('the token is installed');
 	};
 
 	return (
